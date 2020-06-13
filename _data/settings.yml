@@ -40,14 +40,14 @@ disqus:
 # About Section
 
 about: >
-  # Portfolio Jekyll Theme
+  # Dung-Han's portfolio
 
-  This is a personal portfolio theme that I built from the ground up, using the [DevTips Starter Kit](http://devtipsstarterkit.com/) as a foundation for starting, and following closely the amazing tutorial by [Travis Neilson over at DevTips](https://www.youtube.com/watch?v=T6jKLsxbFg4&list=PL0CB3OvPhDA_STygmp3sDenx3UpdOMk7P). You can [check out the demo](lenpaul.github.io/portfolio-jekyll-theme/), and [fork the repository](https://github.com/LeNPaul/portfolio-jekyll-theme/fork), to get started.
+  Graduated from the Robotic Institute from Carnegie Mellon University, Dung-Han (Michael) is enthusiastic about robot perception, such as computer vision, deep learning, SLAM and computational geometry. He is especially interested in mobile robots and self-driving cars, and would love to share my passion with anyone interested and discuss any possible collaboration opportunities!
 
 contact: >
   # Contact
 
-  You may contact me [through my email](mailto:l.nguyen.paul@gmail.com) or [tweet at me](https://twitter.com/intent/tweet?text=%40paululele) if you have any questions or would like to bring up any issues.
+  You may contact me [through my email](mailto:l.dunghanlee@gmail.com) or message me via [LinkedIn](https://www.linkedin.com/in/dunghanlee/) if you have any questions or would like to have a conversation.
 
 #-------------------------------
 # Work Section
@@ -63,10 +63,8 @@ projects:
 # Contact Section
 
 social:
-- {icon: 'twitter', link: '#'}
-- {icon: 'instagram', link: '#'}
-- {icon: 'github', link: '#'}
-- {icon: 'linkedin', link: '#'}
-- {icon: 'envelope', link: 'mailto:#'}
+- {icon: 'github', link: 'https://github.com/Dung-Han-Lee'}
+- {icon: 'linkedin', link: 'https://www.linkedin.com/in/dunghanlee/'}
+- {icon: 'envelope', link: 'mailto:dunghanlee@gmail.com'}
 
 # social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
