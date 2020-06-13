@@ -1,8 +1,18 @@
 ---
 layout: post
-title: 'Project Three'
+title: 'ShellNet Row Detection for LIDAR-base navigation'
 ---
 
-Donec condimentum a leo nec posuere. Vestibulum faucibus leo nec nisl varius vestibulum. Aenean vel quam semper, vestibulum augue at, rutrum ligula. Ut gravida, ex sit amet fringilla luctus, lorem quam mollis elit, et tristique leo urna non odio. Curabitur elementum viverra consequat. Vestibulum vitae dolor tristique, pellentesque metus non, suscipit nunc. Aenean id sem eu libero sodales dignissim eget quis quam. Phasellus quis lectus ac odio convallis luctus. Praesent sed ligula ipsum. Nullam ultricies nunc nec turpis porttitor elementum. Vestibulum vitae imperdiet elit, nec mattis magna. Vestibulum id neque nec turpis ullamcorper rutrum ac non ligula. Quisque nec pellentesque diam. Vestibulum at aliquam mi, vitae fringilla quam. Suspendisse potenti.
+<img src="/assets/img/projects/proj-3/thumb.jpg" alt="architecture" class="responsive"/>
 
-{% include image.html url="http://www.gratisography.com" image="projects/proj-3/clothes.jpg" %}
+#### My Contribution Highlights
+* Transformed ShellNet from authors TensorFlow implementation to Python code using Pytorch running on CPU, enabling LIDAR-base navigation with pointcloud as input
+* Implemented ROS integration code for easy robot integration
+
+<img src="/assets/img/projects/proj-3/output.png" alt="output" class="responsive"/>
+
+#### More About the Project
+Inspired by my capstone project at Carnegie Mellon University, I conducted an independent study at Field Robotic Center under [George Kantor's](https://www.ri.cmu.edu/ri-faculty/george-a-kantor/) supervision. My role was to investigate pure LIDAR-based, in-row navigation for algricultural robots. I labeled 150 LIDAR pointcloud data into training data, which were used to train an ShellNet model from scrath on AWS machine. As a result, the model achieved 0.75 IOU performance.
+
+#### Source Code
+Visit my [repository](https://github.com/Dung-Han-Lee/Pointcloud-based-Row-Detection-using-ShellNet-and-PyTorch) for more technical details

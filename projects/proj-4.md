@@ -1,8 +1,14 @@
 ---
 layout: post
-title: 'Project Four'
+title: 'LIDAR frontier-based exploration'
 ---
 
-In diam odio, facilisis eu elementum in, sodales ut dolor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean fermentum ante vitae sagittis efficitur. Praesent interdum sagittis porttitor. Duis non hendrerit metus. Nullam bibendum nunc cursus elit cursus ornare. Nulla eget sodales erat. Quisque laoreet nibh eu eleifend vehicula.
+#### My Contribution Highlights
+* Implmented frontier-based exploration using C++ and PCL, enabling robot to explore unkwnon space using LIDAR
+* Implemented ROS integration code for easy robot integration
 
-{% include image.html url="http://www.gratisography.com" image="projects/proj-4/bike.jpg" %}
+![Example](https://media.giphy.com/media/JsEMHz8UokICGwypCi/giphy.gif)
+
+#### More About the Project
+This project was developed to support an underground robot explortation work. The node simply takes registered laser scan as input, then build a world model with frontier points indicated to enable frontier-base exploration for unknown space. Please visit my [repository](https://github.com/Dung-Han-Lee/Pointcloud-based-Frontier-Exploration) for more info.
+

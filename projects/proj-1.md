@@ -1,9 +1,22 @@
 ---
 layout: post
-title: 'Project One'
+title: 'RIU-Net Row Detection for LIDAR-base navigation'
 ---
-Mauris velit metus, tempor gravida nulla eget, auctor accumsan tellus. Curabitur volutpat sed dolor quis tempus. In scelerisque aliquam felis at tincidunt. Proin non augue fringilla, [pretium justo vitae](#), maximus dui. Nunc ipsum nisi, fermentum sit amet volutpat cursus, sodales ac nisl. Quisque nec tellus sem. Cras pharetra felis non quam mollis, nec efficitur lectus aliquet. Maecenas ipsum felis, eleifend nec [semper venenatis](#), consequat ut nunc. Donec est augue, facilisis quis placerat sed, imperdiet sit amet neque. Maecenas nec risus metus. Nunc non condimentum ipsum. Phasellus consectetur dapibus massa, convallis iaculis nisi vestibulum id. Phasellus et fringilla augue. Donec consequat dui ut rutrum elementum. Aenean nisi arcu, ornare eu lacus vel, faucibus tempor tortor.
 
-{% include image.html url="http://www.gratisography.com" image="projects/proj-1/dog.jpg" %}
+<img src="/assets/img/projects/proj-1/conversion.png" alt="conversion" class="responsive"/>
 
-{% include image.html url="http://www.gratisography.com" image="projects/proj-1/wall.jpg" %}
+#### My Contribution Highlights
+* Trained an [RIUNet](https://arxiv.org/abs/1905.08748) using Python and Pytorch, enabling LIDAR-based in-row navigation when GPS are not reliable enough
+* Implemented data augmentation and weight-map to improve performance
+* Implemented conversion between range-images and pointclouds, as well as their visualization functions
+
+<img src="/assets/img/projects/proj-1/output.png" alt="output" class="responsive"/>
+
+#### More About the Project
+Inspired by my capstone project at Carnegie Mellon University, I conducted an independent study at Field Robotic Center under [George Kantor's](https://www.ri.cmu.edu/ri-faculty/george-a-kantor/) supervision. My role was to investigate pure LIDAR-based, in-row navigation for algricultural robots. I converted LIDAR data collected from field and manually labeled them into 150 training images, which were used to train an UNet model from scrath on AWS machine. As a result, the model achieved 0.79 IOU performance, and 
+a 96% success rate on the two-line aligement test.
+
+#### Source Code
+Visit my [repository](https://github.com/Dung-Han-Lee/RIUNET-Row-Detection-with-LIDAR-range-image) for more technical details
+
+
