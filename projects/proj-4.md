@@ -4,7 +4,7 @@ title: 'LIDAR frontier-based exploration'
 ---
 
 #### My Contribution Highlights
-* Implmented frontier-based exploration using C++ and PCL, enabling robot to explore unkwnon space using LIDAR
+* Implemented frontier-based exploration using C++ and PCL, enabling a robot to explore unknown space using raw LIDAR pointcloud
 * Implemented ROS integration code for easy robot integration
 
 ![Example](https://media.giphy.com/media/JsEMHz8UokICGwypCi/giphy.gif)
