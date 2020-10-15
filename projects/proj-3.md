@@ -6,7 +6,8 @@ title: 'ShellNet Row Detection for LIDAR-base navigation'
 <img src="/assets/img/projects/proj-3/thumb.jpg" alt="architecture" class="responsive"/>
 
 #### My Contribution Highlights
-* Transformed ShellNet from authors TensorFlow implementation to Python code using Pytorch running on CPU, enabling LIDAR-base navigation with pointcloud as input
+* Transformed ShellNet from [authors TensorFlow implementation](https://github.com/hkust-vgd/shellnet) to Pytorch implementation
+* Enabled LIDAR-base navigation on CPU machine with raw pointclouds
 * Implemented ROS integration code for easy robot integration
 
 <img src="/assets/img/projects/proj-3/output.png" alt="output" class="responsive"/>
