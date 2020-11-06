@@ -13,4 +13,4 @@ In the previous post about RANSAC, we already learnt that RANSAC is susceptible 
 
 ### Remarks
 1. Although having the same mathematical form (gradient descent), Deep learning is about learning an unknown mapping from the input space to the output space. Meanwhile, optimization has a clear idea about its underlying mapping e.g. homogeneous transformation matrix, the whole purpose is about selecting the optimal one from the candidate space. 
-2. 
+2. It should be easy for deep learning e.g. shellnet to detect multiple planes at once. But it would hard for it to identify a specific plane. Probably it's more reasonable to assign them with semantic meanings, pick meaningful ones, then do plane fitting. 
